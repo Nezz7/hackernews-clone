@@ -1,26 +1,11 @@
 language: node_js
 node_js:
-  - "9"
-dist: trusty
-sudo: required
-
+  - "11.0"
 branches:
   only:
-  - master
-
+    - master
 before_script:
   - npm install -g @angular/cli
-
 script:
-  - ng lint
-  - npm run test-headless
-  - ng build --prod --base-href https://github.com/Nezz7/hackernews-clone
-
- deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: dist/travis-demo
-  on:
-    branch: master
-    
+  - npm install
+  - npm run build
