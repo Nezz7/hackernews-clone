@@ -1,12 +1,12 @@
-language: node_js
+ language: node_js
 node_js:
   - "9"
 dist: trusty
 sudo: required
 
 branches:
- only:
-  - master
+  only:
+   - master
   before_script:
   - npm install -g @angular/cli
   
