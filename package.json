@@ -10,7 +10,8 @@
     "surge": "npm run build && cp ./dist/index.html ./dist/404.html && surge -p dist/ -d https://hackernews-clone.surge.sh/ && xdg-open https://hackernews-clone.surge.sh/ >/dev/null",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "test-headless": "ng test --watch=false --browsers=ChromeHeadless"
   },
   "private": false,
   "repository": {
