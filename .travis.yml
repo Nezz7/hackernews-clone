@@ -8,4 +8,5 @@ before_script:
   - npm install -g @angular/cli
 script:
   - npm install
+  - npm run test-headless
   - npm run build
