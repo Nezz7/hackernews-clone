@@ -14,7 +14,7 @@ before_script:
 script:
   - ng lint
   - npm run test-headless
-  - ng build --prod --base-href https://t-palmer.github.io/travis-demo/
+  - ng build --prod --base-href https://github.com/Nezz7/hackernews-clone
 
  deploy:
   provider: pages
