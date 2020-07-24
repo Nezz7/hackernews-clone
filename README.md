@@ -2,7 +2,7 @@
 
 [![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/kapillamba4/hackernews-clone) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://kapillamba4.github.io/hackernews-clone)
 
-This is an angular web app powered by RxJS that provides the most of the functionalities of hackernews without the login functionality.
+This is an angular web app powered by RxJS that provides the most of the functionalities of hackernews without the login functionality..
 
 ![Demo Preview](https://i.imgur.com/mqhA4E8.png)
 [Live Demo](https://kapillamba4.github.io/hackernews-clone)
