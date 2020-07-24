@@ -2,9 +2,14 @@ language: node_js
 node_js:
   - "9"
 dist: trusty
-sudo: requiredbranches:
-  only:
-  - masterbefore_script:
-  - npm install -g @angular/cliscript:
+sudo: required
+
+branches:
+ only:
+  - master
+  before_script:
+  - npm install -g @angular/cli
+  
+  script:
 - ng lint
 - ng build --prod --base-href https://github.com/Nezz7/hackernews-clone
